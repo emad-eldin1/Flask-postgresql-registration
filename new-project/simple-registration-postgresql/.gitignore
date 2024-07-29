@@ -1,0 +1,33 @@
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+# Virtual environment
+venv/
+.env
+
+# Docker
+*.log
+docker-compose.override.yml
+
+# Testing cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.tox
+
+# IDE or editor folders
+.vscode/
+.idea/
+*.swp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Flask instance folder
+instance/
